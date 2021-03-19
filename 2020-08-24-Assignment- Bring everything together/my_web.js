@@ -23,7 +23,7 @@ const emailInput = document.querySelector('#exampleInputEmail1');
 const msg = document.querySelector('.msg');
 const userList = document.querySelector('#list_group');
 
-myForm.addEventListener('submit', onsubmit);
+myForm.addEventListener('submit', onsubmit); 
 
 function onsubmit(e){
   e.preventDefault();
